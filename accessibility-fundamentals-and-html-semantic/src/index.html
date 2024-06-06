@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <title>Accessibility fundamentals and HTML semantic</title>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <h1>Accessibility fundamentals and HTML semantic</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#html_and_accessibility">A good basis for accessibility</a>
+                    <ul>
+                        <li><a href="#good_semantics">Good Semantic</a></li>
+                        <li><a href="#text_content">Text content</a></li>
+                        <li><a href="#page_layouts">Page layouts</a></li>
+                    </ul>
+                </li>
+                <li><a href="#address" target="_blank">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>HTML: A good basis for accessibility</h2>
+            <section aria-labelledby="html_and_accessibility">
+                <h3>
+                    <a href="#html_and_accessibility" title="Permalink to HTML and accessibility">
+                        HTML and accessibility
+                    </a>
+                </h3>
+                <div id="html_and_accessibility">
+                    <p>As you learn more about HTML — read more resources, look at more examples, etc. — you'll keep seeing a common theme: the importance of using semantic HTML (sometimes called POSH, or Plain Old Semantic HTML). This means using the correct HTML elements for their intended purpose as much as possible.</p>
+                    <!-- Content removed for brevity -->
+                </div>
+            </section>
+            <section aria-labelledby="good_semantics">
+                <h3>
+                    <a href="#good_semantics" title="Permalink to Good Semantic">
+                        Good semantics
+                    </a>
+                </h3>
+                <div id="good_semantics">
+                    <!-- Content removed for brevity -->
+                </div>
+            </section>
+            <!-- Additional sections removed for brevity -->
+            <section aria-labelledby="page_layouts">
+                <h3>
+                    <a href="#page_layouts" title="Permalink to Page layouts">
+                        Page layouts
+                    </a>
+                </h3>
+                <div id="page_layouts">
+                    <!-- Image added here -->
+                    <figure>
+                        <img src="./images/code-example.PNG" alt="Modern website structure example">
+                        <figcaption>Modern website structure example</figcaption>
+                    </figure>
+                    <!-- Content removed for brevity -->
+                </div>
+            </section>
+        </article>
+    </main>
+    <aside>
+        <p>
+            Resources for Developers, by Developers. <br>
+            Documenting web technologies, including CSS, HTML, and JavaScript, since 2005.
+        </p>
+        <button type="button">click to visit</button>
+    </aside>
+    <footer>
+        <p>
+            Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+        </p>
+        <address id="address">
+            You can contact author at <a href="http://www.somedomain.com/contact" target="_blank">www.somedomain.com</a>.<br>
+            You may also want to visit us:<br>
+            Mozilla Foundation<br>
+            1981 Landings Drive Building K<br>
+            Mountain View, CA 94043-0801  USA
+        </address>
+    </footer>
+</body>
+</html>
